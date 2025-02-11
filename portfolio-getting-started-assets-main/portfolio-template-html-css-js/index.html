@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgs/favicon.jpg">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo">P</div>
+            <div class="logo-text">Portfolio Website</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                
+                <li>
+                    <a href="mailto:rashmirani25012003@gmail.com" class="button">Contact Me</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+                </svg>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h1><small>Hi I'm</small>
+                        Rashmi Rani
+                    </h1>
+                    <p>
+                      A web developer who loves creating websites and applications that are both functional and visually appealing. I enjoy solving problems, writing clean code, and building user-friendly experiences. My goal is to develop web solutions that make a real difference, while constantly learning and growing with new technologies.
+                    </p>
+                    <div class="call-to-action">
+                        <a href="./Resume.pdf" class="button black">
+                            View Resume
+                        </a>
+                        <a href="mailto:rashmirani25012003@gmail.com" class="button white">
+                            Contact Me
+                        </a>
+                    </div>
+                
+                </div>
+            </div>
+            <div class="">
+                <img src="./imgs/Rashmi.jpeg" alt="Rashmi Rani" width="90%" height="100%" />
+            </div>
+        </section>
+        <section class="logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="./imgs/html.png" alt="HTML" width="128" />
+                    <img src="./imgs/css.png" alt="CSS" width="128" />
+                    <img src="./imgs/javascript.png" alt="JS" width="128" />
+                    <img src="./imgs/java.png" alt="Java" width="128"/>
+                    <img src="./imgs/mysql-logo.svg" alt="mysql" width="128"/>
+                    <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+                    <img src="./imgs/IJ.jpeg" width="128" alt="Intellij idea" />
+                    <img src="./imgs/html.png" alt="HTML" width="128" />
+                    <img src="./imgs/css.png" alt="CSS" width="128" />
+                    <img src="./imgs/javascript.png" alt="JS" width="128" />
+                    <img src="./imgs/java.png" alt="Java" width="128"/>
+                    <img src="./imgs/mysql-logo.svg" alt="mysql" width="128"/>
+                    <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+                    <img src="./imgs/IJ.jpeg" width="128" alt="Intellij idea" />
+                
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills container">
+            <h2>
+                <small>About Me</small>
+                Skills
+            </h2>
+            <div class="holder-blue">
+                <div class="left-column">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Java</li>
+                        <li>MySQL</li>
+                        <li>.NET</li>
+
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <h3>A bit about me</h3>
+                    <p>
+                        Hi,I'm Rashmi a web developer with a strong focus on building dynamic, responsive, and user-friendly web applications. Skilled in both front-end and back-end development, I work with modern technologies to create seamless digital experiences. 
+                    </p>
+                    <p>
+                        My strengths lie in problem-solving, clean code practices, and optimizing performance to deliver high-quality solutions. I’m passionate about continuous learning and staying updated with the latest trends in web development to create innovative and efficient applications.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="education container">
+            <h2>Education</h2>
+            <div class="holder-blue">
+              <div class="education-item">
+                <h3>Master of Computer Applications (MCA)</h3>
+                <p>Maharishi Dayanand University, 2022 - 2024</p>
+                <p>Specialized in Software Development and Web Technologies. Key courses: Advanced Algorithms, Cloud Computing, and Mobile Application Development.</p>
+              </div>
+              <div class="education-item">
+                <h3>Bachelor's of Science</h3>
+                <p>Mahatma Jyotiba Phule Rohilkhand University, 2019 - 2022</p>
+                <p>Graduated with Honors. Relevant coursework: Mathematics, Physics, chemistry.</p>
+              </div>
+              <div class="education-item">
+                <h3>Intermediate</h3>
+                <p>Uttar Pradesh Board, 2017 - 2019</p>
+                <p>Focus on Science and Mathematics.</p>
+              </div>
+            </div>
+          </section>
+
+        <section class="work-experience container">
+            <h2>
+                <small>Recent</small>
+                Work Experience
+            </h2>
+            <div class="holder-blue">
+            
+
+                    <p>I recently joined EInfratech System India Pvt. Ltd. as a web developer, where I contribute to developing and maintaining dynamic, responsive web applications. My role involves working with modern web technologies to create efficient, user-friendly solutions that meet business requirements.I’m excited to apply my problem-solving skills and passion for clean, optimized code while continuously learning and growing within the fast-paced environment of EInfratech System.</p>
+                
+                </div>
+                
+            </div>
+        </section>
+        
+        <section class="projects container">
+            <h2>Completed Projects</h2>
+            <div class="holder-blue">
+                <div class="left-column">
+                    <h4>SendExpressCourier</h4>
+                    <p>
+                        This Android app is a courier service platform designed to make delivery management simple and secure. Users can register, log in, and book courier services by entering details like sender and receiver information. They can track their shipments in real-time using AWB numbers and upload proof of delivery through images or signatures.
+                    </p>
+                </div>
+                <div class="right-column">
+                    <h4>QueenOfHearts</h4>
+                    <p>
+                        This game is for picking up the cards and winning the corresponding prize associated with the card. Users have a playing cards grid, and one lucky customer gets a chance to pick a card from the grid.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="chatbot container">
+            <h2>
+                <small>Talk to me</small>
+                Chatbot
+            </h2>
+            <div class="chatbot-blue">
+                <div class="chat-info">
+                    <h3>AI Chatbot</h3>
+                    <p>
+                        I've put together a chatbot here that knows all my skills, work experience, and has a copy of my CV/Resume. You can use it to ask questions about me to get a better idea of who I am and what I've done.
+                    </p>
+                    <p>
+                        You can also download my resume here if you'd like to take a look. I'm currently looking for new opportunities, so if you have a project you think I'd be a good fit for, please get in touch!
+                    </p>
+                    <a href="./resume.pdf" class="button black">Download Resume</a>
+                </div>
+                <div class="chat-box">
+                    <div class="scroll-area">
+                        <ul id="chat-log">
+                            <li>
+                                <span class="avatar bot">AI</span>
+                                <div class="message">
+                                    Hi, I'm a friendly chatbot here to help you explore this portfolio and CV. How can I assist you today?
+                                </div>
+                            </li>
+                            <li>
+                                <span class="avatar user">User</span>
+                                <div class="message">
+                                    I have a question about this resume.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="chat-message">
+                        <input type="text" placeholder="Hey, what skills are you best at?">
+                        <button class="button black">Send</button>
+                    </div>
+                </div>
+            </div>
+        </section>
